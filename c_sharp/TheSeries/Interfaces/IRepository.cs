@@ -5,7 +5,6 @@ namespace Series.Interfaces
     public interface IRepository<T> //generic type
     {
         List<T> List();
-
         T ReturnById (int id);
         void Insert(T entity);
         void Exclude (int id);

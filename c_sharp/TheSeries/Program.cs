@@ -43,7 +43,7 @@ namespace TheSeries
 			Console.ReadLine();
         }
 
-               private static void ListSeries()
+        private static void ListSeries()
 		{
 			Console.WriteLine("List series");
 
@@ -61,6 +61,7 @@ namespace TheSeries
 				Console.WriteLine("#ID {0}: - {1} {2}", serie.returnId(), serie.returnTitle(), (excluded ? "*Excluded*" : ""));
 			}
 		}
+
         private static void InsertSerie()
 		{
 			Console.WriteLine("Insert new serie");
@@ -94,6 +95,7 @@ namespace TheSeries
 
 			repository.Insert(serie);
 		}
+
         private static void ExcludeSerie()
 		{
 			Console.Write("Enter the serie id: ");
@@ -101,7 +103,8 @@ namespace TheSeries
 
 			repository.Exclude(serieId);
 		}
-        private static void UpdateSerie()
+        
+		private static void UpdateSerie()
 		{
 			Console.Write("Enter the serie id: ");
 			int id = int.Parse(Console.ReadLine());
@@ -131,7 +134,8 @@ namespace TheSeries
 
 			repository.Update(id, serie);
 		}
-        private static void ShowSerie()
+        
+		private static void ShowSerie()
 		{
 			Console.Write("Enter the serie id: ");
 			int serieId = int.Parse(Console.ReadLine());
