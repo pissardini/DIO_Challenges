@@ -1,0 +1,10 @@
+{ 
+	"cumprimentos":["ola","bom dia","boa tarde","boa noite","oi"],
+	"despedidas":["obrigado","obrigada","valeu","tchau","ate mais"],
+	"inicio": "Olá, bem-vindo ao bot do PTR-USP. Digite \/tel para telefone, \/site para site, \/selecao para saber quando ocorrem as seletivas de pós-graduação e \/calendario para o calendário da pós.",
+	"fim": "Obrigado pelo contato. Qualquer coisa, estamos por aqui.",
+	"tel": "Nosso telefone é (11) 3091-5208",
+	"site": "Nosso site é http://www.ptr.poli.usp.br/",
+	"selecao": "Para saber mais sobre o processo seletivo, acesse http://www.ptr.poli.usp.br/pos-graduacao/processo-seletivo/",
+	"calendario": "O calendário da pós é acessível em http://www.ptr.poli.usp.br/pos-graduacao/calendario/"
+}
